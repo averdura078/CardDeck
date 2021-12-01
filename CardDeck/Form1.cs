@@ -42,7 +42,7 @@ namespace CardDeck
 
             while (deck.Count > 0)
             {
-                int index = randGen.Next(0, deck.Count);
+                int index = randGen.Next(0, deck.Count);                
                 deckTemp.Add(deck[index]);
                 deck.RemoveAt(index);
             }
