@@ -38,7 +38,7 @@ namespace CardDeck
             this.dealerLabel = new System.Windows.Forms.Label();
             this.playerLabel = new System.Windows.Forms.Label();
             this.availableBox = new System.Windows.Forms.GroupBox();
-            this.showLabel = new System.Windows.Forms.Label();
+            this.outputLabel = new System.Windows.Forms.Label();
             this.availableBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -133,31 +133,31 @@ namespace CardDeck
             // 
             // availableBox
             // 
-            this.availableBox.Controls.Add(this.showLabel);
+            this.availableBox.Controls.Add(this.outputLabel);
             this.availableBox.ForeColor = System.Drawing.Color.White;
             this.availableBox.Location = new System.Drawing.Point(12, 185);
             this.availableBox.Name = "availableBox";
-            this.availableBox.Size = new System.Drawing.Size(424, 108);
+            this.availableBox.Size = new System.Drawing.Size(457, 118);
             this.availableBox.TabIndex = 12;
             this.availableBox.TabStop = false;
-            this.availableBox.Text = "Available Current Cards in Main Deck";
+            this.availableBox.Text = "Cards available in Main Deck";
             // 
-            // showLabel
+            // outputLabel
             // 
-            this.showLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showLabel.ForeColor = System.Drawing.Color.White;
-            this.showLabel.Location = new System.Drawing.Point(12, 24);
-            this.showLabel.Name = "showLabel";
-            this.showLabel.Size = new System.Drawing.Size(396, 67);
-            this.showLabel.TabIndex = 6;
-            this.showLabel.Text = "--";
+            this.outputLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.ForeColor = System.Drawing.Color.White;
+            this.outputLabel.Location = new System.Drawing.Point(12, 24);
+            this.outputLabel.Name = "outputLabel";
+            this.outputLabel.Size = new System.Drawing.Size(425, 78);
+            this.outputLabel.TabIndex = 6;
+            this.outputLabel.Text = "--";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Green;
-            this.ClientSize = new System.Drawing.Size(451, 313);
+            this.ClientSize = new System.Drawing.Size(481, 317);
             this.Controls.Add(this.availableBox);
             this.Controls.Add(this.playerLabel);
             this.Controls.Add(this.dealerLabel);
@@ -186,7 +186,7 @@ namespace CardDeck
         private System.Windows.Forms.Label dealerLabel;
         private System.Windows.Forms.Label playerLabel;
         private System.Windows.Forms.GroupBox availableBox;
-        private System.Windows.Forms.Label showLabel;
+        private System.Windows.Forms.Label outputLabel;
     }
 }
 
